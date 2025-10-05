@@ -1,5 +1,6 @@
 # Background
 ## Monte Carlo simulations are widely used in the finance industry to forecast prices based on historical data. 
+> *I learned the background and implementation from this Medium article: https://medium.com/analytics-vidhya/monte-carlo-simulations-for-predicting-stock-prices-python-a64f53585662*
 
 In general, a Monte Carlo simulation is a way to model outcomes of random variables. Looking from a high level, this model lets a variable make lots of random choices and repeats that simulation many times. The results are then collected, and the average is taken, thus producing an estimate for the forecasted price.
 
