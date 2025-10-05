@@ -48,7 +48,7 @@ $$
 \displaystyle S_t = S_{t-1} + e^r = 
 $$
 $$
-\displaystyle S_t = S_{t-1} + e^{(\mu-\frac{1}{2}\sigma^2) + (\sigma Z[Rand(0,1)])}
+\displaystyle S_t = S_{t-1} * e^{(\mu-\frac{1}{2}\sigma^2) + (\sigma Z[Rand(0,1)])}
 $$
 
 For the notation, $GBM$ stands for Geometric Brownian Motion, $Returns_{today} = S_t$ and $Returns_{yesterday} = S_{t-1}$. The presence of the $e$ term is also quite mysterious to me personally, but can be cautiously agreed upon because of the compounding returns we are dealing with. This, too is a more difficult math concept I've yet to understand.
